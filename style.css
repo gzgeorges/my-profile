@@ -1,0 +1,111 @@
+body {
+  background-color: whitesmoke;
+  font-family: 'Lora', serif;
+  line-height: 1.4;
+  font-weight: 400;
+}
+h1, h2 {
+  font-family: 'Vidaloka', serif;
+  color: #3E6D9C;
+}
+h1 {
+  font-weight: bolder;
+  font-size: 35px;
+}
+h2 {
+  font-weight: 700;
+  font-size: 25px;
+}
+a {
+  text-decoration: none;
+  font-family: 'Press Start 2P', cursive;
+  font-weight: lighter;
+  font-size: 10px;
+  text-transform: uppercase;
+  transition: all 0.2s linear;
+}
+a:hover {
+  color: #3A8891;
+}
+p {
+  text-justify: center;
+  text-justify: justify;
+}
+
+/* Custom design with class */
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+@media (max-width: 760px) {
+  .container{
+    width: 600px;
+  }
+}
+@media (max-width: 620px) {
+  .container{
+    width: 500px;
+  }
+}
+@media (max-width: 500px) {
+  .container{
+    width: 400px;
+  }
+}
+@media (max-width: 300px) {
+  .container{
+    width: 290px;
+  }
+}
+.card-white{
+  background-color: #DDDDDD;
+  padding: 20px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.15);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+.img-circle {
+  border-radius: 50%;
+}
+.btn-blue {
+  background-color: #a1cae2;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+.btn-blue:hover {
+  background-color: #B1B2FF;
+  color: white;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: #a1cae2;
+}
+.list-inline i:hover {
+  color: #B1B2FF;
+}
+.list-galeries {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-galeries a {
+  font-size: 12px;
+  color: #a1cae2;
+}
+.list-galeries a:hover {
+  color: #B1B2FF;
+}
+#introduction p {
+  margin-bottom: 40px;
+}
+
+
